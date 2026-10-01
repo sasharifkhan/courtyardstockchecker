@@ -79,8 +79,8 @@ async function checkStock() {
   }
 }
 
-// Check every 1 minute automatically
-setInterval(checkStock, 60 * 1000);
+// Check every 10 seconds automatically
+setInterval(checkStock, 10 * 1000);
 
 // Basic HTTP server to keep Render happy and allow manual checks
 app.get("/", (req, res) => {
