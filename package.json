@@ -1,0 +1,18 @@
+{
+  "name": "render-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "socks-proxy-agent": "^10.1.0"
+  }
+}
